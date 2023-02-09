@@ -75,3 +75,11 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+configMap:
+  enabled: false
+  name: ""
+  data:
+    VAR01: "01"
+    DATABASE: "MySQL"
+    USER: "USER"
